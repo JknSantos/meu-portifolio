@@ -11,7 +11,7 @@ export default {
         'github': "url('assets/github.png')",
         'email': "url('assets/email.png')",
         'whatsapp': "url('assets/whatsapp.png')",
-        'linkedin': "url('assets/Linkedin.png')",
+        'linkedin': "url('assets/node-js.png')",
         'dispositivos': "url('assets/devices.png')",
         'sites': "url('assets/criar-site.png')",
         'javascript': "url('assets/javascript.png')",
