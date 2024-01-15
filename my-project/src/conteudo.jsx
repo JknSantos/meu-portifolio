@@ -16,7 +16,7 @@ export default function App() {
                 <h3>Sobre mim</h3>
                 <p>Praiano de carteirinha, cristão, acredita na lei da semeadura, apaixonado pelo mundo geek.</p>
                 <p>Desenvolvedor de software Full Stack em formação na Cubos Academy.</p>
-                <p>Trabalhei a mais de 5 anos como Operador de produção em empresa metalúrgica, mas durante esse tempo sempre me tive a curiosidade sobre programação e estudei sobre, tive muitos altos e baixos mas com certeza minha maior motivação foi meu irmão que trabalha durante esse tempo trabalhou na area e me ajudou nos meus estudos quando esquecia um ponto e virgula.</p>
+                <p>Trabalhei a mais de 5 anos como Operador de produção em empresa metalúrgica, mas durante esse tempo sempre me tive a curiosidade sobre programação e estudei sobre, tive muitos altos e baixos mas com certeza minha maior motivação foi meu irmão que trabalha na area e me ajudou nos meus estudos.</p>
                 <p>Vejo a programação como uma ferramenta que me da a liberdade de mudar minha vida e ajudar o próximo com as soluções e inovações da tecnologia.</p>
                 <p>Na minha carreira de produção desenvolvi habilidades como boa comunicação, trabalho em equipe, controle e organização, entre outras que sei que me ajudarão muito nesta nova etapa.</p>
                 <p>Você está convidado para conhecer um pouco mais sobre mim, me envie uma mensagem 😁</p>
