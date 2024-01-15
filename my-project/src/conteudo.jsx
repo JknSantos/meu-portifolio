@@ -8,7 +8,7 @@ export default function App() {
                     <p>Desenvolvedor Front-end com experiências em Back-End</p>
                     <div className="buttons">
                         <button className="color-secoundary">Download CV</button>
-                        <button><a href="wa.link/gp3h05">Entre em contato</a></button>
+                        <button><a href="https://wa.link/gp3h05">Entre em contato</a></button>
                     </div>
                 </div>
             </section>
@@ -35,7 +35,7 @@ export default function App() {
                     </a>
                 </div>
                 <div className="redes">
-                    <a href="wa.link/gp3h05" target="_blank">
+                    <a href="https://wa.link/gp3h05" target="_blank">
                         <span className="whatsapp"></span>
                         <p>11 9 1718-2394</p>
                     </a>
