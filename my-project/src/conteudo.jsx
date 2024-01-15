@@ -5,7 +5,7 @@ export default function App() {
                 <span className="meu-personagem"></span>
                 <div className="intro-sobre-mim">
                     <h2>Olá, eu sou Jackson Felipe</h2>
-                    <p>Desenvolvedor Front-end com rumo ao Full-Stack</p>
+                    <p>Desenvolvedor Front-end que busca se tornar Full-Stack</p>
                     <div className="buttons">
                         <button className="color-secoundary">Download CV</button>
                         <button><a href="https://wa.link/gp3h05">Entre em contato</a></button>
