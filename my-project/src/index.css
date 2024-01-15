@@ -59,6 +59,7 @@
   }
   .barra-de-navegacao input:checked ~ li{
     @apply visible z-50 bg-neutral-600
+    xl:bg-inherit
   }
   .barra-de-navegacao li{
     @apply 
