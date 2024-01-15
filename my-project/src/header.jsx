@@ -8,10 +8,10 @@ export default function App() {
           <span></span>
           <span></span>
         </div>
-        <li><a href="#">Sobre mim</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Minhas skills</a></li>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#minhas-skills">Minhas skills</a></li>
       </ul>
     </header>
   )

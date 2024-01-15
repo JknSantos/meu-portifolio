@@ -12,7 +12,7 @@ export default function App() {
                     </div>
                 </div>
             </section>
-            <section className="sobre-mim">
+            <section id="sobre-mim" className="sobre-mim">
                 <h3>Sobre mim</h3>
                 <p>Praiano de carteirinha, cristão, acredita na lei da semeadura, apaixonado pelo mundo geek.</p>
                 <p>Desenvolvedor de software Full Stack em formação na Cubos Academy.</p>
@@ -47,7 +47,7 @@ export default function App() {
                     </a>
                 </div>
             </section>
-            <section className="projetos">
+            <section id="projetos" className="projetos">
                 <h3>Projetos</h3>
                 <div className="top-3-projetos">
                     <div className="tumb-do-projeto"></div>
@@ -65,7 +65,7 @@ export default function App() {
                     <p>Tecnologias: HTML, CSS e Javascript</p>
                 </div>
             </section>
-            <section className="servicos">
+            <section id="servicos" className="servicos">
                 <h3>Serviços</h3>
                 <div className="servico-a-prestar">
                     <span className="sites"></span>
@@ -76,7 +76,7 @@ export default function App() {
                     <p>Sites responsivos</p>
                 </div>
             </section>
-            <section className="minhas-skills">
+            <section id="minhas-skills" className="minhas-skills">
                 <h3>Minhas skills</h3>
                 <div className="skill">
                     <span className="javascript"></span>
