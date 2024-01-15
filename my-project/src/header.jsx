@@ -3,11 +3,12 @@ export default function App() {
     <header>
       <h1>Portifólio</h1>
       <ul className="barra-de-navegacao">
-        <div className="botao-menu-mobile">
+        <input type="checkbox" name="teste" id="teste" />
+        <button className="botao-menu-mobile">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
         <li><a href="#sobre-mim">Sobre mim</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#servicos">Serviços</a></li>

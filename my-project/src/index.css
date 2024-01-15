@@ -34,18 +34,36 @@
     
   }
   .barra-de-navegacao .botao-menu-mobile{
-    @apply 
-    cursor-pointer
+    @apply relative w-10 h-8
+    xl:hidden
+  }
+  .barra-de-navegacao input{
+    @apply absolute w-10 h-8 right-0 top-0 border-0 opacity-0 z-50
     xl:hidden
   }
   .barra-de-navegacao .botao-menu-mobile span{
     @apply 
     bg-neutral-400 w-screen h-0.5 block my-1.5 max-w-10 rounded-sm
   }
+  .barra-de-navegacao input:checked ~ .botao-menu-mobile span:not(:nth-of-type(2)){
+    @apply  transition-all
+  }
+  .barra-de-navegacao input:checked ~ .botao-menu-mobile span:nth-of-type(1){
+    @apply -rotate-45 absolute top-2 left-1 w-9
+  }
+  .barra-de-navegacao input:checked ~ .botao-menu-mobile span:nth-of-type(3){
+    @apply rotate-45  absolute top-2 left-1 w-9
+  }
+  .barra-de-navegacao input:checked ~ .botao-menu-mobile span:nth-of-type(2){
+    @apply collapse
+  }
+  .barra-de-navegacao input:checked ~ li{
+    @apply visible z-50 bg-neutral-600
+  }
   .barra-de-navegacao li{
     @apply 
-    hidden relative w-60 text-center p-3.5 my-1 border border-neutral-500 rounded-xl 
-    xl:block xl:border-none xl:w-52 xl:my-0
+    collapse relative w-60 text-center p-3.5 my-1 border border-neutral-500 rounded-xl font-bold transition-all
+    xl:visible xl:border-none xl:w-52 xl:my-0 
     /* colocar um hover  */
   }
   .barra-de-navegacao li a{
