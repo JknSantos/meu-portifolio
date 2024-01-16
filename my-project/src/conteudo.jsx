@@ -1,4 +1,9 @@
 export default function App() {
+    const openCurriculo = () => {
+        const arquivo = "/CV_Jackson_Felipe.pdf";
+    
+        window.open(arquivo, "_blank");
+      };
       return (
         <main>
             <section className="apresentacao">
@@ -7,7 +12,7 @@ export default function App() {
                     <h2>Olá, eu sou Jackson Felipe</h2>
                     <p>Desenvolvedor Front-end que busca se tornar Full-Stack</p>
                     <div className="buttons">
-                        <button className="color-secoundary"><a href="https://drive.google.com/file/d/1UXLyj3ZnpROL0r_2iTHj5hHGJy7MmyqB/view?usp=sharing">Download CV</a></button>
+                        <button onClick={openCurriculo}>Download CV</button>
                         <button><a href="https://wa.link/gp3h05">Entre em contato</a></button>
                     </div>
                 </div>
