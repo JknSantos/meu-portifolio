@@ -77,7 +77,7 @@ export default function App() {
                     <p>Criação de sites</p>
                 </div>
                 <div className="servico-a-prestar">
-                    <span className="devices">'</span>
+                    <span className="devices"></span>
                     <p>Sites responsivos</p>
                 </div>
             </section>

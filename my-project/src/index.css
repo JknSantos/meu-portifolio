@@ -97,7 +97,22 @@
   }
   .intro-sobre-mim .buttons button{
     @apply 
-    h-10 w-36 border border-neutral-400 font-semibold
+    h-10 w-36 border border-neutral-400/50 font-semibold transition-all rounded-sm
+  }
+  .intro-sobre-mim .buttons button:hover{
+    @apply shadow-zinc-50 shadow-sm
+  }
+  .intro-sobre-mim .buttons button:first-of-type{
+    @apply bg-indigo-950
+  }
+  .intro-sobre-mim .buttons button:first-of-type:hover{
+    @apply bg-gradient-to-b from-indigo-950 to-indigo-700 text-zinc-50 border-white 
+  }
+  .intro-sobre-mim .buttons button:last-of-type{
+    @apply bg-green-700
+  }
+  .intro-sobre-mim .buttons button:last-of-type:hover{
+    @apply bg-gradient-to-b from-green-700 to-lime-600 text-zinc-50 border-white 
   }
   .meu-personagem {
     @apply 
