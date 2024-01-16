@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <header>
-      <h1>Portifólio</h1>
+      <h1>Portfólio</h1>
       <ul className="barra-de-navegacao">
         <input type="checkbox" name="teste" id="teste" />
         <button className="botao-menu-mobile">

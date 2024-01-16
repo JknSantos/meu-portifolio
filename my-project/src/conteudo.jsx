@@ -7,7 +7,7 @@ export default function App() {
                     <h2>Olá, eu sou Jackson Felipe</h2>
                     <p>Desenvolvedor Front-end que busca se tornar Full-Stack</p>
                     <div className="buttons">
-                        <button className="color-secoundary">Download CV</button>
+                        <button className="color-secoundary"><a href="#">Download CV</a></button>
                         <button><a href="https://wa.link/gp3h05">Entre em contato</a></button>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ export default function App() {
                 <h3>Sobre mim</h3>
                 <p>Praiano de carteirinha, cristão, acredita na lei da semeadura, apaixonado pelo mundo geek.</p>
                 <p>Desenvolvedor de software Full Stack em formação na Cubos Academy.</p>
-                <p>Trabalhei a mais de 4 anos como Operador de produção em empresa metalúrgica, durante esse tempo fui conhencendo sobre programação e estudei sobre, tive muitos altos e baixos mas minha maior motivação foi meu irmão que já estava atuando nessa area e me ajudou muito nos meus estudos e como inspiração.</p>
+                <p>Trabalhei a mais de 4 anos como Operador de produção em empresa metalúrgica, durante esse tempo fui conhencendo sobre programação e estudei sobre, tive muitos altos e baixos mas minha maior motivação foi meu irmão que já estava atuando nessa área e me ajudou muito nos meus estudos e como inspiração.</p>
                 <p>Vejo a programação como uma ferramenta que me da a liberdade de mudar minha vida e ajudar o próximo com as soluções e inovações da tecnologia.</p>
                 <p>Na minha carreira de produção desenvolvi habilidades como boa comunicação, trabalho em equipe, controle e organização, entre outras que sei que me ajudarão muito nesta nova etapa.</p>
                 <p>Você está convidado para conhecer um pouco mais sobre mim, me envie uma mensagem 😁</p>
