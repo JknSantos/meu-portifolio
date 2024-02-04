@@ -19,7 +19,7 @@ export default function App() {
             </section>
             <section id="sobre-mim" className="sobre-mim">
                 <h3>Sobre mim</h3>
-                <p>Praiano de carteirinha, cristão, acredita na lei da semeadura, apaixonado pelo mundo geek.</p>
+                <p>Cristão, acredita na lei da semeadura, apaixonado pelo mundo geek e praias.</p>
                 <p>Desenvolvedor de software Full Stack em formação na Cubos Academy.</p>
                 <p>Trabalhei a mais de 4 anos como Operador de produção em empresa metalúrgica, durante esse tempo fui conhencendo sobre programação e estudei sobre, tive muitos altos e baixos mas minha maior motivação foi meu irmão que já estava atuando nessa área e me ajudou muito nos meus estudos e como inspiração.</p>
                 <p>Vejo a programação como uma ferramenta que me da a liberdade de mudar minha vida e ajudar o próximo com as soluções e inovações da tecnologia.</p>
